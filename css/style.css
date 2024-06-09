@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    color: #3b506c;
+    font-size: 18px;
+}
+body header {
+    background-color: beige;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.wrapper{
+  
+    margin: 0 auto;
+    width: 1000px;
+    padding: 10px;
+    overflow: hidden;
+}
+body header .wrapper .logo {
+    width: 20%;
+    float: left;
+}
+body header .wrapper nav{
+    width: 80%;
+    float: right;
+}
+body header .wrapper ul{
+    list-style: none;
+}
+body header .wrapper ul li{display: inline;padding: 20px;}
+body header .wrapper ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3b506c;
+    font-weight: 700;
+}
+ 
+
+ 
+
+section .wrapper{text-align: center;}
+section .wrapper h2{
+    font-size: 60px;
+}
+section .wrapper p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+section .wrapper img{
+    width: 60%;
+}
+section .wrapper h2 span{  color: #0c66ff;}
+
+
+#success{}
+#success .left-side{
+    float: left;
+    width: 45%;
+    /* color: red; */
+    text-align: right;
+    margin-right: 50px;
+}
+#success .left-side h2{
+    color: red;
+    font-size: 60px;
+}
+#success .left-side p{}
+#success .right-side{
+    width: 45%;
+    float: left;
+}
+#success .right-side h2{}
+
+
+#card{}
+#card .card-item{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 30px;
+}
+.card-item:hover{
+    background-color: beige;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#card .card-item img{
+    width: 100%;
+}
+#card .card-item h3{}
+#card .card-item p{}
+
+
+
+footer{
+    background-color: #ccd1d9;
+    /* width: 1000px; */
+    padding: 42px 25px;
+    height: 150px;
+}
+footer ul{
+    width: 20%;
+    float: left;
+    /* text-decoration: none; */
+}
+footer ul li{
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #6b7b90;
+}
+.special{
+    padding-bottom: 26px;
+    color: black;
+    display: inline-block;
+    /* width: 53px; */
+}
